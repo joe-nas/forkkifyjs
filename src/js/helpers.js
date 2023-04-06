@@ -29,3 +29,7 @@ export const AJAX = async function (url, uploadData = undefined) {
     throw err;
   }
 };
+
+const justAFunction = function () {
+  console.log('I am just a function');
+};
